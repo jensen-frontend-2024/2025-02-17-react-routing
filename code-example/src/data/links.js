@@ -2,22 +2,22 @@ export const links = [
   {
     id: '1',
     name: 'start',
-    path: '/',
+    to: '/',
   },
   {
     id: '2',
     name: 'random cocktail',
-    path: '/random-cocktail',
+    to: '/random-cocktail',
   },
   {
     id: '3',
     name: 'search',
-    path: '/search',
+    to: '/search',
   },
   {
     hidden: true,
     id: '4',
     name: 'details',
-    path: '/details',
+    to: '/details',
   },
 ];

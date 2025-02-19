@@ -6,7 +6,7 @@ export function Navbar() {
     <header className="navbar">
       <nav className="links">
         {links.map((link) => (
-          <NavLink key={link.id} to={link.path}>
+          <NavLink key={link.id} to={link.to}>
             {link.name}
           </NavLink>
         ))}
