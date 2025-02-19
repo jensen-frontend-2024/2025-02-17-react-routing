@@ -1,3 +1,5 @@
 @import url('./components/Navbar.css');
+@import url('./components/RandomCocktail.css');
 
+@import url('./views/CocktailDetailsView.css');
 @import url('./views/RandomCocktailView.css');

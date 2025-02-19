@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { mapRawCocktailData } from '../utilities';
+import { RandomCocktail } from '../components/RandomCocktail';
 
 export function RandomCocktailView() {
   const [randomCocktail, setRandomCocktail] = useState(null);
@@ -27,7 +28,7 @@ export function RandomCocktailView() {
 
   return (
     <main className="random-cocktail-view">
-      <h1>Random Cocktail View</h1>
+      <RandomCocktail cocktail={randomCocktail} />
     </main>
   );
 }

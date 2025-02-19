@@ -1,0 +1,12 @@
+.cocktail-details-view .image {
+  width: 300px;
+}
+
+.cocktail-details-view .image img {
+  width: 100%;
+}
+
+.cocktail-details-view .ingredients .ingredient {
+  display: flex;
+  gap: 1rem;
+}
